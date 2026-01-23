@@ -9,5 +9,9 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-for-keyboards
+      url: https://github.com/PandaKBLab/zmk-for-keyboards.git
+      revision: master
+      path: modules/zmk-for-keyboards
   self:
     path: config
